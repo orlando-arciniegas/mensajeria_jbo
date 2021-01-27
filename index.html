@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mensajeria JBO</title>
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- FONTAWESOME-->
+  <script src="https://kit.fontawesome.com/bc10f2bde4.js" crossorigin="anonymous"></script>
+  <!-- ANIMATE CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- CUSTOM CSS-->
+  <link rel="stylesheet" href="/public/css/styles.css">
+  <!-- GOOGLE FONTS-->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <a class="navbar-brand" href="#">
+      <img src="public/images/logo.png" width="80" height="80" class="d-inline-block align-center rounded-circle"
+        alt="">
+      <h4 class="title_nav">Mensajeria JBO</h4>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="sr-only"></span>
+      <i class="fa fa-bars" aria-hidden="true"></i> Menu
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#nosotros"><i class="fas fa-home"></i> Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#servicios"><i class="fas fa-motorcycle"></i> Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contacto"><i class="far fa-envelope"></i> Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="jumbotron banner-principal"></div>
+  <div class="bg-dark">
+    <h1 class="welcome">¡Bienvenido!</h1>
+  </div>
+  <div class="container" id="nosotros">
+
+    <div class="row">
+
+      <div class="col-md-6 flex centrar">
+        <p>Tu empresa con un servicio profesional de entregas, nuestro compromiso es la
+          responsabilidad y efectividad, vos vendes... ¡Nosotros entregamos!</p>
+      </div>
+
+      <div class="col-md-6"><img src="public/images/imagen_trabajo.jpg" class="img-fluid flex centrar img_style"
+          alt="Responsive image" style="height: 80%; width: 60%;">
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container" style="margin-top: 50px;">
+
+    <div class="row">
+
+      <div class="col-md-6"><img src="public/images/mapa.jpg" class="img-fluid flex centrar img_style"
+          alt="Responsive image" style="height: 90%; width: 70%;">
+      </div>
+
+      <div class="col-md-6 flex centrar">
+        <p>Conocé el area de cobertura que le brindamos a tu empresa, brindando la mayor transparencia en calidad de
+          servicio y costo.</p>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="container" id="servicios">
+    <h1 class="text-center" style="margin-top: 70px; margin-bottom: 50px;">Servicios destacados</h1>
+    <div class="row row-cols-1 row-cols-md-4">
+      <div class="col mb-3">
+        <div class="card h-100">
+          <i class="fas fa-motorcycle fa-7x icon"></i>
+          <div class="card-body">
+            <h5 class="card-title">Mensajeria a domicilio.</h5>
+            <p class="card-text">Mercado FLEX, compras y/o ventas particulares.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-3">
+        <div class="card h-100">
+          <i class="fas fa-truck fa-7x icon"></i>
+          <div class="card-body">
+            <h5 class="card-title">Fletes & Minifletes.</h5>
+            <p class="card-text">Hacemos traslado de mercaderias.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-3">
+        <div class="card h-100">
+          <i class="fas fa-money-check fa-7x icon"></i>
+          <div class="card-body">
+            <h5 class="card-title">Trámites en general.</h5>
+            <p class="card-text">Bancarios, cobranzas, Afip.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-3">
+        <div class="card h-100">
+          <i class="fas fa-truck-loading fa-7x icon"></i>
+          <div class="card-body">
+            <h5 class="card-title">Descargas & Mudanzas.</h5>
+            <p class="card-text">Para tu empresa u hogar.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="contacto">
+
+    <h1 class="text-center titleTres" style="margin-top: 50px; margin-bottom: 30px;"> ¡Contactanos!</h1>
+    <p class="text-center titleTres" style="margin-bottom: 30px;">Nuestros agentes se encargaran de atender todas tus
+      dudas</p>
+
+    <div class="row">
+
+
+      <div class="col-6">
+        <div class="card animate__animated animate__pulse">
+          <div class="card-header bg-dark text-white text-center">
+            <h3>Formulario de consulta</h3>
+          </div>
+          <div class="card-body">
+            <form action="" method="POST">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="tu email." name="email">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="consulta" id="" cols="30" rows="10"
+                  placeholder="Ingresa tu consulta."></textarea>
+              </div>
+              <div class="form-group">
+                <button class="btn btn-primary btn-block">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-6">
+        <ul>
+          <li><i class="fab fa-whatsapp fa-4x"></i></li><br>
+          <li><i class="fab fa-facebook fa-4x"></i></li><br>
+          <li><i class="fab fa-instagram fa-4x"></i></li><br>
+          <li><i class="far fa-envelope fa-4x"></i></li><br>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+  <a href="#" class="btn-home"> <i class="fas fa-home home-icon"></i></a>
+
+  <a href="https://wa.me/" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+
+  <footer>
+
+    <div class="row">
+      <div class="col-4">
+        <p>Mensajeria JBO</p>
+      </div>
+      <div class="col-4">
+        <a href="#" target=""><img src="http://www.afip.gob.ar/images/f960/DATAWEB.jpg" border="0"
+            style="height: 200px;"></a>
+      </div>
+      <div class="col-4">
+        Contamos con la mejor atención y servicio.
+      </div>
+    </div>
+
+  </footer>
+
+</body>
+
+<!-- SCRIPTS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
+
+</html>

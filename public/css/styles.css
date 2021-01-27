@@ -95,19 +95,20 @@ li {
 
 @keyframes wave {
 	0% {
-		transform: translate(-15rem);
+		transform: translate(-10rem);
 	}
 	100% {
-		transform: translate(15rem); /*scale(0.5)*/
-	}
+		transform: translate(2rem); 
+  }
+
 }
 
 .welcome {
 	animation-name: wave;
 	animation-duration: 6s;
 	animation-iteration-count: infinite;
-	animation-direction: alternate;
-	animation-timing-function: ease-out;
+	animation-direction: alternate-reverse;
+	animation-timing-function: ease-in;
 	animation-delay: 0s;
 }
 
